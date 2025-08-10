@@ -14,6 +14,8 @@ This repository contains a collection of deep learning projects implemented usin
     *   **`haarcascade_frontalface_default.xml`**: An OpenCV Haar Cascade file used for detecting frontal faces in an image or video stream.
 
 Dataset: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
+<br>The data consists of 48x48 pixel grayscale images of faces. The faces have been automatically registered so that the face is more or less centred and occupies about the same amount of space in each image.
+The task is to categorize each face based on the emotion shown in the facial expression into one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral). The training set consists of 28,709 examples and the public test set consists of 3,589 examples.
 
 ### 2. Fake News Detection
 
@@ -28,7 +30,8 @@ Dataset: https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-data
 
 ### 4. Human Activity Recognition
 
-*   **`Human_Activity_Recognition_SensorML.ipynb`**: This project focuses on recognizing human activities (e.g., walking, sitting, standing) based on sensor data. The notebook uses a hybrid model combining a CNN and an LSTM to effectively capture both spatial and temporal features from the sensor readings.
+*   **`Human_Activity_Recognition_SensorML.ipynb`**: This project focuses on recognizing human activities (e.g., walking, sitting, standing) based on sensor data. The notebook uses a hybrid model combining a CNN and an LSTM to effectively capture both spatial and temporal features from the sensor readings.<br>
+Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
 Dataset: https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones <br>
  Download the data from the UCI HAR Dataset page and unzip it into your project directory. Upload the unzipped UCI HAR Dataset folder to your Colab environment.
